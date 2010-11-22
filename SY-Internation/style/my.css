@@ -1,0 +1,365 @@
+﻿/* 统一样式
+-----------------------------------------------*/
+html,body,div,a,ul,ol,h1,h2,h3,h4,h5,h6,span,img,p,form{
+	color:#666;
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	font-size:12px;
+	border:none;
+	font-family: Verdana,Tahoma,Arial,STHeiti,"宋体",Hei,"黑体"STSong,"宋体";
+	z-index:0;
+	zoom:1;
+}
+
+p{
+	text-indent:2em;
+	line-height:1.6em;
+}
+
+a{
+	color:#5c060b;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+ul,ol{
+	list-style:none;
+}
+
+h4{
+	font-size:14px;
+}
+
+h3{
+	font-size:16px;
+}
+
+h2{
+	font-size:18px;
+}
+
+h1{
+	font-size:20px;
+}
+
+.f_l{
+	float:left
+}
+
+.f_r{
+	float:right
+}
+
+.h-list{
+	
+}/*横向排列列表*/
+
+/* 页面特定样式
+-----------------------------------------------*/
+.SY-Page{
+	background: #fff url('../img/page_bg.jpg') repeat-y 0 0;
+}
+
+/* 页面导航
+-----------------------------------------------*/
+
+.SY-Nav-Item{
+	width:156px;
+}
+
+.SY-Nav-Item a{
+	background:url('../img/navigtor_normal.jpg') 0 0 repeat;
+	width:100%;
+	height:31px;
+	display:block;
+	text-indent:-100000px;
+}
+
+#SY-Nav-Item-1{
+	background-position:1px 0;
+}
+
+#SY-Nav-Item-2{
+	background-position:-139px 0;
+}
+
+#SY-Nav-Item-3{
+	background-position:-299px 0;
+}
+
+#SY-Nav-Item-4{
+	background-position:-459px 0;
+}
+
+#SY-Nav-Item-5{
+	background-position:-619px 0;
+}
+
+#SY-Nav-Item-6{
+	background-position:-779px 0;
+}
+
+/* 面包屑导航
+-----------------------------------------------*/
+#SY-Bread{
+	line-height:32px;
+	text-indent:1em;
+	background:#eee;
+	margin-bottom:1em;
+}
+
+/* 页脚
+-----------------------------------------------*/
+#SY-Footer{
+	background: #fff url('../img/page_footer.jpg') no-repeat 0 0;
+	padding-top:28px;
+	margin-top:28px;
+	padding-bottom:30px;
+}
+
+/* 版权申明
+-----------------------------------------------*/
+.SY-Copyright{
+	text-align:right;
+}
+
+/* 图标
+-----------------------------------------------*/
+.icon{
+	padding-left:32px;
+	background-repeat: no-repeat;
+	background-position: 2px 4px;
+}
+
+.icon.ico-1{
+	background-image:url('../img/icon_1.jpg');
+}
+
+/* 标题
+-----------------------------------------------*/
+.SY-Title-1{
+	background-color:#e9e9e9;
+	line-height:39px;
+	margin-bottom:8px;
+}
+
+
+/* 首页新闻列表
+-----------------------------------------------*/
+#SY-Abstract-News-List{
+	
+}
+
+#SY-Abstract-News-List li{
+	padding-top:2px;
+	padding-bottom:3px;
+	overflow:hidden;
+	border-bottom:dashed 1px #c9c9c9;
+}
+
+#SY-Abstract-News-List li a{
+	color:#666;
+}
+
+#SY-Abstract-News-List li a:hover{
+	color:#5c060b;
+}
+
+#SY-Abstract-News-List li span.title{
+	float:left;
+}
+
+#SY-Abstract-News-List li span.date{
+	float:right;
+	margin-right:10px;
+}
+
+/* 页面侧边列表
+-----------------------------------------------*/
+.SY-Side-List{
+	padding-left:1em;
+}
+
+.SY-Side-List li{
+	border-bottom:dotted 1px #aaa;
+}
+
+.SY-Side-List li a{
+	display:block;
+	line-height:22px;
+	text-indent:0.5em;
+	
+}
+
+/* 页面具体内容
+-----------------------------------------------*/
+.SY-Content{
+	_width:50%;
+	_padding:0
+}
+
+.SY-Content img{
+}
+
+.SY-Content p{
+	margin-bottom:1em;
+	padding:0 10px;
+}
+
+/* 新闻发布厅列表
+-----------------------------------------------*/
+.SY-News-List{
+	padding:0 10px;
+}
+
+.SY-News-List li{
+	margin-bottom:1em;
+}
+
+.SY-News-List h3{
+	line-height:26px;
+	border-bottom:1px #ccc solid;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+
+.SY-News-List h3 a{
+	float:left;
+	font-size:16px;
+	_padding:0;
+	_margin:0
+}
+
+.SY-News-List h3 span{
+	float:right;
+}
+
+.SY-News-List div{
+	overflow:hidden;
+}
+
+.SY-News-List img{
+	margin-right:10px;
+	float:left;
+	width: 120px;
+}
+
+.SY-News-List p{
+	width:600px;
+	float:left;
+}
+
+.SY-News-List p a{
+	_padding:0;
+	_margin:0
+}
+
+/*  登录表单
+-----------------------------------------------*/
+#SY-Login-Form{
+	width:100%;
+}
+
+#SY-Login-Form p{
+	margin-bottom:5px
+}
+
+#SY-Login-Form label{
+	width:62px;
+	display:inline-block;
+	text-align:right;
+	padding-right:0.3em
+}
+
+#SY-Login-Form input.text{
+	width:200px;
+	border:1px solid #aaa
+}
+
+#SY-Login-Form input.button{
+	padding:5px 15px;
+	vertical-align:middle
+}
+
+/*  新闻详细页
+-----------------------------------------------*/
+#SY-News{
+
+}
+
+#SY-News h1{
+	text-align:center;
+	line-height:46px;
+	border-bottom:1px solid #aaa;
+	margin-bottom:10px;
+	font-size:28px;
+	margin-right:20px;
+}
+
+#SY-News .bar{
+	padding-right:20px;
+	margin-bottom:5px;
+}
+
+#SY-News .font-size{
+	margin-bottom:15px;
+}
+
+#SY-News .content{
+	padding-right:20px;
+	min-height:400px;
+	_height:400px;
+}
+
+#SY-News .content img{
+	margin:0 2em;
+}
+
+#SY-News .pages{
+	margin-top:4em;
+	text-align:center;
+	padding-right:20px;
+}
+
+/*  商品列表页
+-----------------------------------------------*/
+.SY-Product-List li{
+	margin:20px 0;
+}
+
+.SY-Product-List img{
+	width:150px;
+	padding:3px;
+	border:1px solid #eee;
+}
+
+.SY-Product-List .info{
+	width:70%;
+	margin-left:10px;
+}
+
+.SY-Product-List .info h3{
+	font-size:22px;
+	border-bottom:solid 1px #aaa;
+	line-height:32px;
+	margin-bottom:0.5em;
+}
+
+.SY-Product-List .info .property{
+	padding-left:0.5em;
+}
+
+.SY-Product-List .info .property div{
+	line-height:20px;
+	float:left;
+	margin-left:1em;
+	_margin-left:0.1em; /*For IE6*/
+}
+.SY-Product-List .info .property div span{
+	width:5em;
+	text-align:right;
+	color:#aaa;
+}
