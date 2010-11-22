@@ -358,10 +358,13 @@ h1{
 	line-height:20px;
 	float:left;
 	margin-left:1em;
+	width:12em;
 	_margin-left:0.1em; /*For IE6*/
 }
 .SY-Product-List .info .property div span{
 	width:5em;
+	*+width:3em;
+	_width:4em;
 	text-align:right;
 	color:#aaa;
 }
