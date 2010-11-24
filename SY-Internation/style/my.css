@@ -368,3 +368,31 @@ h1{
 	text-align:right;
 	color:#aaa;
 }
+
+#SY-Product-Category{
+	margin-bottom:1em;
+}
+
+#SY-Product-Category li{
+	float:left;
+}
+
+#SY-Product-Category li a{
+	display:block;
+	padding:5px 15px;
+}
+
+#SY-Product-Category li a.selected{
+	background:#b2b2b2;
+	color:#fff;
+}
+
+.SY-Product-Category-List ul{
+	padding-left:1em;
+	padding-top:0.5em;
+	cursor:pointer;
+}
+
+.SY-Product-Category-List ul li{
+	margin-bottom:3px;
+}
